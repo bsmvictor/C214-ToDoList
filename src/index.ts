@@ -33,7 +33,7 @@ async function addNewTask() {
 
 async function startTodoList() {
   const userChoise = await getUserInput(
-    "Digite 1 para adicionar uma tarefa, 2 para visualizar as tarefas ou 0 para sair: ",
+    "\n\tDigite 1 para adicionar uma tarefa, 2 para visualizar as tarefas ou 0 para sair: ",
   );
 
   switch (userChoise) {
