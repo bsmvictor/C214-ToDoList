@@ -20,3 +20,5 @@ const task: Task = {
 const TaskManager = new ToDoListManager();
 
 TaskManager.insertTask(task);
+
+console.log("TASK:", task);
